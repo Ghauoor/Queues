@@ -1,12 +1,15 @@
 package Implimentation;
 //https://www.codingninjas.com/codestudio/problems/queue-using-array-or-singly-linked-list_2099908
-public class Queue {
+public class
+
+
+QueueUsingArray {
     int[] arr;
     int qFront;
     int rear;
     int size;
 
-    Queue() {
+    QueueUsingArray() {
         // Implement the Constructor
         size = 10001;
         arr = new int[size];
@@ -14,7 +17,7 @@ public class Queue {
         rear = 0;
     }
 
-    /*----------------- Public Functions of Queue -----------------*/
+    /*----------------- Public Functions of QueueUsingArray -----------------*/
 
     boolean isEmpty() {
         // Implement the isEmpty() function
