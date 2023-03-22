@@ -20,7 +20,7 @@ public class Implement_Queue_Using_Two_Stacks {
     public int pop() {
         if (stackOne.isEmpty()) {
             while (!stackTwo.isEmpty()) {
-                stackOne.push(stackOne.peek());
+                stackOne.push(stackTwo.peek());
                 stackTwo.pop();
             }
         }
